@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cougardevs-staging-23139-authRole",
+      "UnauthRoleArn": "arn:aws:iam::333248405225:role/amplify-cougardevs-staging-23139-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::333248405225:role/amplify-cougardevs-staging-23139-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cougardevs-staging-23139-deployment",
+      "UnauthRoleName": "amplify-cougardevs-staging-23139-unauthRole",
+      "StackName": "amplify-cougardevs-staging-23139",
+      "StackId": "arn:aws:cloudformation:us-east-1:333248405225:stack/amplify-cougardevs-staging-23139/f72108b0-661f-11ed-a6cf-0ab634256341",
+      "AmplifyAppId": "d3syi1lnog1w31"
+    },
+    "categories": {
+      "auth": {
+        "cougarDevs": {}
+      }
+    }
+  }
+}
