@@ -1,0 +1,60 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cougardevs-staging-23139-authRole",
+      "UnauthRoleArn": "arn:aws:iam::333248405225:role/amplify-cougardevs-staging-23139-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::333248405225:role/amplify-cougardevs-staging-23139-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cougardevs-staging-23139-deployment",
+      "UnauthRoleName": "amplify-cougardevs-staging-23139-unauthRole",
+      "StackName": "amplify-cougardevs-staging-23139",
+      "StackId": "arn:aws:cloudformation:us-east-1:333248405225:stack/amplify-cougardevs-staging-23139/f72108b0-661f-11ed-a6cf-0ab634256341",
+      "AmplifyAppId": "d3syi1lnog1w31"
+    }
+  },
+  "auth": {
+    "cougarDevs": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 15,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ]
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "output": {
+        "UserPoolId": "us-east-1_NE4HTCvyI",
+        "AppClientIDWeb": "1d41vektfm7tguh6fkafs9vbmf",
+        "AppClientID": "261t3jhiuu83dij37183ma680f",
+        "IdentityPoolId": "us-east-1:325f8433-d9db-4505-be3d-87e94b5778b2",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:333248405225:userpool/us-east-1_NE4HTCvyI",
+        "IdentityPoolName": "testAuthIdentityPool__staging",
+        "UserPoolName": "cougarDevs"
+      },
+      "lastPushTimeStamp": "2022-11-17T02:57:18.046Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-cougardevs-staging-23139-deployment/amplify-cfn-templates/auth/cougarDevs-cloudformation-template.json",
+        "logicalId": "authcougarDevs"
+      }
+    }
+  }
+}
